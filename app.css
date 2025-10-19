@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  background-color: #111;
+  color: white;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.product-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #222;
+  border: 1px solid #333;
+  border-radius: 10px;
+  width: 200px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
